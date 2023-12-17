@@ -16,7 +16,7 @@ SoftwareSerial gpsSerial(RXPin, TXPin);
 
 void setup()
 {
-  // Start the Arduino hardware serial port at 9600 baud
+  // Start the Arduino hardware serial port at 9600 baud6
   Serial.begin(9600);
 
   // Start the software serial port at the GPS's default baud
@@ -75,7 +75,7 @@ void displayInfo()
   if (gps.time.isValid())
   {
     if (gps.time.hour() < 10) Serial.print(F("0"));
-    Serial.print(gps.time.hour());
+    Serial.print(gps.time.hour()+3);
     Serial.print(":");
     if (gps.time.minute() < 10) Serial.print(F("0"));
     Serial.print(gps.time.minute());
