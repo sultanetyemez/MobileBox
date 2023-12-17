@@ -5,6 +5,7 @@
 int RXPin = 2;
 int TXPin = 3;
 // Merhaba Sulta Burası Deneme Gitbash alanı.
+// Gurkandev branch ekleme.
 int GPSBaud = 9600;
 
 // Create a TinyGPS++ object
