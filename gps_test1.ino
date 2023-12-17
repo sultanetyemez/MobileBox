@@ -4,7 +4,7 @@
 // Choose two Arduino pins to use for software serial
 int RXPin = 2;
 int TXPin = 3;
-
+// Merhaba Sulta Burası Deneme Gitbash alanı.
 int GPSBaud = 9600;
 
 // Create a TinyGPS++ object
