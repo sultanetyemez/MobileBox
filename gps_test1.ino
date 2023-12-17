@@ -52,7 +52,7 @@ void displayInfo()
   }
   else
   {
-    Serial.println("Location: Not Available-deneme");
+    Serial.println("Location: Not Available");
   
   }
   
@@ -63,7 +63,8 @@ void displayInfo()
     Serial.print("/");
     Serial.print(gps.date.day());
     Serial.print("/");
-    Serial.println(gps.date.year());
+          
+       Serial.println(gps.date.year());
   }
   else
   {
