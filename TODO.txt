@@ -1,0 +1,8 @@
+MobileBox TODO
+1) GPS Sensör verilerini third library kullanmadan okumak. (PAZAR)
+2) NTC Sensörünü koda ekleyerek çalışır hale getirmek. (PAZAR)
+3) ESP8266 İle Wifiye Bağlanma.  
+4) ESP8266 ile TCP üzerinden veri gönderme.
+5) Dynamic map oluşturma, python ile ücretsiz olarak. 
+6) Python ile TCP üzerinden veri okuma.
+7) Python ile veri okuyup map oluşturarak üzerine sıcaklık değerlerini girme.
